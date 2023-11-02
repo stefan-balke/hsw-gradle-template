@@ -43,7 +43,7 @@ public class IBANTest {
     @DisplayName("Soll fehlschlagen.")
     void checkForEqualityFalse() {
         String myIBAN = "ZZ68210501700012345678";
-        String comparatorIBAN = "ZZ68210501700012345678";
+        String comparatorIBAN = "DE89370400440532013000";
         IBAN classUnderTest = new IBAN(myIBAN);
         assertFalse(classUnderTest.checkForEquality(myIBAN, comparatorIBAN));
     }
