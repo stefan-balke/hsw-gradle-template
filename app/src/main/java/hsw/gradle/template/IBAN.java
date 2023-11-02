@@ -70,4 +70,11 @@ public class IBAN {
             return false;
         }
     }
+
+    public boolean checkForDE(String IBANnumber) {
+        if (IBANnumber.startsWith("DE")) {
+            return true;
+        }
+        return false;
+    }
 }
