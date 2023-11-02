@@ -77,4 +77,11 @@ public class IBAN {
         }
         return false;
     }
+
+    public boolean checkForEquality(String IBANnumber, String comparatorIBAN) {
+        if (IBANnumber.equals(comparatorIBAN)) {
+            return true;
+        }
+        return false;
+    }
 }
