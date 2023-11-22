@@ -4,7 +4,7 @@
 package hsw.gradle.template;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println("Hello and welcome!");
         Addition add = new Addition();
         Subtraktion subtract = new Subtraktion();
